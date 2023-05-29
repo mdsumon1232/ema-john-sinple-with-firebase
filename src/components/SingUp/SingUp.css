@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+.form-container{
+    height: 700px;
+    width: 500px;
+    border: 1px solid #95A0A7;
+    border-radius: 8px;
+    margin: 05px auto;
+    box-shadow: -13px 13px  0px 0  #FFE0B3;
+}    
+
+.form-title{
+    font-family: 'Lato', sans-serif;
+    font-size: 35px;
+    line-height: 42px;
+    line-height: 100%;
+    text-align: center;
+}
+
+.form-control{
+    height: 84px;
+    width: 415px;
+    margin-left: 42px;
+    margin-bottom: 20px;
+}
+
+.form-container label{
+    display: block;
+    font-size: 17px;
+    line-height: 20px;
+    line-height: 100%;
+    letter-spacing: 0.15%;
+    margin: 9px;
+}
+
+.form-control input{
+    height: 55px;
+    width: 415px;
+    border: 1px solid #95A0A7;
+    border-radius: 5px;
+    padding: 0 8px;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.btn{
+    height: 55px;
+    width: 415px;
+    border-radius: 5px;
+    background-color: rgba(255, 153, 0, 0.3);
+    margin-left: 42px;
+    border: 0 solid;
+    color: #0E161A;
+    font-family: 'Lato', sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.0015em;
+
+}
+
+.user-position{
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+}
+
+.user-position a{
+    color: #FF9900;
+}
+
+.confirm-error{
+    margin-left: 42px;
+    color: red;
+}
